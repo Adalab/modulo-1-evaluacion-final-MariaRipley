@@ -1,0 +1,52 @@
+.section2__container {
+    background-color: $section2Color;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5 1fr);
+    text-align: center;
+}
+
+.section2__title {
+    font-family: $titleFont;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    line-height: $lineHeigh;
+    padding-top: 8%;
+}
+
+.section2__article {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding-top: 10%;
+    &--title{
+        font-family: $titleFont;
+        font-size: 1.12rem;
+        line-height: $lineHeigh;
+    }
+    &--text {
+        font-family: $textFont;
+        font-size: 1.12rem;
+        line-height: $lineHeigh;
+    }
+}
+
+.section2__link {
+    text-decoration: none;
+    color: $primaryColor;
+    font-family: $titleFont;
+    font-size: 1.25rem;
+    background-color: $accentColor;
+    border-radius: 22.5px;
+    width: 35%;
+    margin: 20% auto;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.caps {
+    text-transform: capitalize;
+}
