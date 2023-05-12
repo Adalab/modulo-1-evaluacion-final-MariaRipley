@@ -1,0 +1,41 @@
+.centralColumn {
+    margin: 0 15px;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    &__subtitle {
+        color: $subtitleColor;
+        text-transform: capitalize;
+        font-family: $textFont;
+        font-size: 0.9rem;
+        padding-bottom: 2%;
+    }
+    &__title {
+        text-transform: capitalize;
+        font-family: $titleFont;
+        font-size: 1.5rem;
+        line-height: 1.87rem;
+        padding-bottom: 4%;
+    }
+    &__text {
+        font-family: $textFont;
+        font-size: 1.12rem;
+        line-height: 1.87rem;
+        padding-bottom: 7%;
+    }
+    &__link {
+        border: solid 2px $accentColor;
+        border-radius: 22.5px;
+        text-decoration: none;
+        color: $accentColor;
+        font-family: $titleFont;
+        font-size: 1.25rem;
+        padding: 2% 6%;
+        display: inline-block;
+    }
+}

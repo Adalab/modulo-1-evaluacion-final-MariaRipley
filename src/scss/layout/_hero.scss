@@ -14,23 +14,36 @@
         text-align: center;
         color: $primaryColor;
         text-shadow: 0 2px 3px $translucent;
-        font-family: 'Roboto Slab', serif;
+        font-family: $titleFont;
         &--title{
             text-transform: uppercase;
             font-size: 3rem;
             line-height: 4rem;
+            
         }
         &--text{
-            font-family: 'Roboto', sans-serif;
+            font-family: $textFont;
             margin-top: 3%;
+            font-size: 1rem;
         }
     }
     &__scroll {
         background-color: $primaryColor;
         border-radius: 50px;
-        padding: 3%;
+        display: flex;
+        justify-content: center;
+        width: 45px;
+        height: 45px;
         margin-top: 10%;
         margin-bottom: 10%;
+        &--icon {
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+        }
     }
+
     }
+
+    
     
