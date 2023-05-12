@@ -1,0 +1,36 @@
+.hero {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../images/cover.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    &__section {
+        width: 100vw;
+        text-align: center;
+        color: $primaryColor;
+        text-shadow: 0 2px 3px $translucent;
+        font-family: 'Roboto Slab', serif;
+        &--title{
+            text-transform: uppercase;
+            font-size: 3rem;
+            line-height: 4rem;
+        }
+        &--text{
+            font-family: 'Roboto', sans-serif;
+            margin-top: 3%;
+        }
+    }
+    &__scroll {
+        background-color: $primaryColor;
+        border-radius: 50px;
+        padding: 3%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    }
+    
