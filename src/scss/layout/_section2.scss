@@ -5,15 +5,16 @@
         font-family: $titleFont;
         font-size: 1.5rem;
         text-transform: capitalize;
-        line-height: $lineHeigh;
-        padding: 5%;
+        line-height: $lineHeight;
+        padding: 7% 0.5% 0.5%;
+        
     }
     &__grid {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(3 1fr);
-        gap: 20%;
-        padding: 5%;
+        gap: 15%;
+        padding-top: 10%;
     }
     &__button {
        text-align: center;
@@ -34,14 +35,16 @@
 
 .row {
     text-align: center;
-    padding: 0 30%;
+    padding: 0 10%;
     &__title {
         font-family: $titleFont;
-        line-height: $lineHeigh;
+        line-height: $lineHeight;
+        font-size: 1.12rem;
     }
     &__text {
         font-family: $textFont;
-        line-height: $lineHeigh;
+        line-height: $lineHeight;
+        font-size: 1.12rem;
     }
 }
 
