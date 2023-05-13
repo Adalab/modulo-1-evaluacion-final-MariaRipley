@@ -12,7 +12,7 @@
     &__grid {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(3 1fr);
+        grid-template-rows: 1fr 1fr 1fr;
         gap: 15%;
         padding-top: 10%;
     }
@@ -35,7 +35,7 @@
 
 .row {
     text-align: center;
-    padding: 0 10%;
+    
     &__title {
         font-family: $titleFont;
         line-height: $lineHeight;

@@ -1,14 +1,6 @@
-.footer {
-    background-color: $footerColor;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    &__img {
-        background-color: $primaryColor;
-        border-radius: 50px;
-    }
+.footer__arrow {
+    width: 20%;
 }
-
 
 
 
