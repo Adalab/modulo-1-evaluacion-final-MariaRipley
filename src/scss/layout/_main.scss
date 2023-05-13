@@ -8,3 +8,22 @@ html {
         margin: 0 39px;
     }
 }
+
+.section1__link:hover {
+    background-color: $accentColor;
+    color: $primaryColor;
+    transition: all .5s ease-in-out;
+    filter: opacity(.5);
+}
+
+.section2__button--link:hover {
+    background-color: $primaryColor;
+    color: $accentColor;
+    transition: all .5s ease-in-out;
+    filter: opacity(.5);
+    border: 2px solid $accentColor;
+}
+
+.arrow-link:hover .footer__arrow {
+    filter: blur(5px);
+}
