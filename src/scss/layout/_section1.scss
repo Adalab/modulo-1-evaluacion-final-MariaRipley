@@ -18,12 +18,18 @@
         font-size: 1.5rem;
         line-height: $lineHeight;
         padding-bottom: 4%;
+        @media screen and (min-width: 1024px) {
+            font-size: 2rem;
+        }
     }
     &__text {
         font-family: $textFont;
         font-size: 1.12rem;
         line-height: $lineHeight;
         padding-bottom: 7%;
+        @media screen and (min-width: 1024px) {
+                font-size: 1.25rem;
+            }
     }
     &__link {
         border: solid 2px $accentColor;
@@ -34,5 +40,8 @@
         font-size: 1.25rem;
         padding: 2% 6%;
         display: inline-block;
+        @media screen and (min-width: 1024px) {
+            padding: 2% 12%;
+        }
     }
 }
