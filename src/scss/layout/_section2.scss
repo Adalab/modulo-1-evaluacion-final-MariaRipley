@@ -13,6 +13,9 @@
         @media screen and (min-width: 1024px) {
             font-size: 2rem;
         } 
+        @media screen and (min-width: 1024px) {
+            font-size: 3rem;
+        }
     }
     &__grid {
         display: grid;
@@ -24,11 +27,6 @@
             grid-template-columns: 1fr 1fr 1fr;
             grid-template-rows: 1fr;
             padding: 5% 2% 0 2%; 
-        }
-        @media screen and (min-width: 1024px) {
-            margin-left: -40%;
-            margin-right: -40%;
-            padding-top: 10%;
         }
     }
     &__button {
@@ -55,7 +53,7 @@
             padding: 2% 8%;
         }
         @media screen and (min-width: 1024px) {
-            padding: 4% 16%;
+            font-size: 3rem;
         }
        }
         
@@ -69,6 +67,10 @@
         font-family: $titleFont;
         line-height: $lineHeight;
         font-size: 1.12rem;
+        @media screen and (min-width: 1024px) {
+            font-size: 1.8rem;
+            
+        }
     }
     &__text {
         font-family: $textFont;
