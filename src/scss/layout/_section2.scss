@@ -15,12 +15,23 @@
         grid-template-rows: 1fr 1fr 1fr;
         gap: 15%;
         padding-top: 10%;
+        @media screen and (min-width: 768px) {
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr;
+            padding-top: 6%;
+            
+        }
     }
     &__button {
        text-align: center;
        margin-top: 40%;
        padding-top: 5%;
        padding-bottom: 20%;
+       @media screen and (min-width: 768px) {
+        margin-top: 4%;
+        transform: scale(0.7);
+        padding-bottom: 10%;
+       }
        
        &--link {
         text-decoration: none;
@@ -30,6 +41,9 @@
         background-color: $accentColor;
         border-radius: 50px;
         padding: 4% 12%;
+        @media screen and (min-width: 768px) {
+            padding: 2% 8%;
+        }
        }
         
     }
