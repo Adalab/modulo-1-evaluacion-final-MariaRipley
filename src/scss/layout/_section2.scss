@@ -1,5 +1,8 @@
 .section2 {
     background-color: $section2Color;
+    @media screen and (min-width: 1024px) {
+            padding-bottom: 4%;
+        }
     &__title {
         text-align: center;
         font-family: $titleFont;
@@ -9,22 +12,23 @@
         padding: 7% 0.5% 0.5%;
         @media screen and (min-width: 1024px) {
             font-size: 2rem;
-        }
-        
+        } 
     }
     &__grid {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
         gap: 15%;
-        padding-top: 10%;
+        padding: 10% 15% 0 15%;
         @media screen and (min-width: 768px) {
             grid-template-columns: 1fr 1fr 1fr;
             grid-template-rows: 1fr;
-            padding-top: 6%;    
+            padding: 5% 2% 0 2%; 
         }
         @media screen and (min-width: 1024px) {
-            
+            margin-left: -40%;
+            margin-right: -40%;
+            padding-top: 10%;
         }
     }
     &__button {
@@ -37,6 +41,7 @@
         transform: scale(0.7);
         padding-bottom: 10%;
        }
+     
        
        &--link {
         text-decoration: none;
@@ -48,6 +53,9 @@
         padding: 4% 12%;
         @media screen and (min-width: 768px) {
             padding: 2% 8%;
+        }
+        @media screen and (min-width: 1024px) {
+            padding: 4% 16%;
         }
        }
         
