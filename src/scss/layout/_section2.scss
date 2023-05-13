@@ -21,13 +21,15 @@
        margin-top: 40%;
        padding-top: 5%;
        padding-bottom: 20%;
+       
        &--link {
         text-decoration: none;
         color: $primaryColor;
-        font-family: $titleFont;
+        font-family: $textFont;
+        font-size: 1.5rem;
         background-color: $accentColor;
         border-radius: 50px;
-        padding: 2% 6%;
+        padding: 4% 12%;
        }
         
     }

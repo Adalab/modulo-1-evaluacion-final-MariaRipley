@@ -1,5 +1,41 @@
 .footer__arrow {
-    width: 20%;
+    width: 15%;
+    background-color: $primaryColor;
+    box-shadow: 0 2px 4px 0 $translucent;
+    border-radius: 50px;
+    padding: 12px;
+    position: absolute;
+    left: 42%;
+    transform: translateY(-50%);
+}
+
+.footer {
+    background-color: $footerColor;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.menu {
+    &__list {
+        position: relative;
+        top: 60px;
+        padding-bottom: 50%;
+        &--item {
+            text-decoration: none;
+            color: $primaryColor;
+            text-transform: uppercase;
+            line-height: $lineHeight;
+        }
+    }
+}
+
+.copy {
+    color: $primaryColor;
+    line-height: $lineHeight;
+    padding-top: 10%;
+    padding-bottom: 15%;
 }
 
 
