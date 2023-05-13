@@ -1,5 +1,5 @@
 .hero {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background-image: url("../images/cover.jpg");
     background-position: center;
@@ -10,16 +10,14 @@
     justify-content: flex-end;
     align-items: center;
     &__section {
-        width: 80vw;
         text-align: center;
         color: $primaryColor;
         text-shadow: 0 2px 3px $translucent;
         font-family: $titleFont;
         &--title{
             text-transform: uppercase;
-            font-size: 3rem;
-            line-height: 4rem;
-            
+            font-size: 2.6rem;
+            line-height: 3.4rem;
         }
         &--text{
             font-family: $textFont;
