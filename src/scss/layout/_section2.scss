@@ -28,6 +28,9 @@
             grid-template-rows: 1fr;
             padding: 5% 2% 0 2%; 
         }
+        @media screen and (min-width: 1024px) {
+            padding: 10% 0 0 0;
+        }
     }
     &__button {
        text-align: center;
